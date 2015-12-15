@@ -1,0 +1,9 @@
+.nav-tabs li {
+	width: 16.6%;
+	text-align: center;
+}
+
+.nav-tabs img {
+	width: 24px;
+	height: 24px;
+}
