@@ -1,0 +1,13 @@
+*
+
+!/app
+!/app/**
+/app/**/*.pyc
+
+!/.gitignore
+!/LICENSE
+!/README.md
+!/requirements.txt
+!/run.py
+!/runtime.txt
+!/Procfile
