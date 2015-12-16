@@ -2,9 +2,12 @@
 
 !/app
 !/app/**
-/app/**/*.pyc
+/**/*.pyc
 
-!/.gitignore
+!/bin
+!/bin/**
+
+!.gitignore
 !/LICENSE
 !/README.md
 !/requirements.txt
