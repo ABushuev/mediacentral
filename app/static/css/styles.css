@@ -11,14 +11,39 @@
 .btn-circle {
 	border: 2px solid black;
   	border-radius: 50%;
-  	width: 80px;
-  	height: 80px;
+  	width: 70px;
+  	height: 70px;
   	background-color: #DDD;
+  	cursor: pointer;
+}
+
+.btn-circle:hover {
+  	background-color: #CCC;
 }
 
 .btn-circle img {
-	width: 64px;
-  	height: 64px;
+	width: 54px;
+  	height: 54px;
   	margin-top: 6px;
   	margin-left: 6px;
+}
+
+.slider-circle {
+	-webkit-appearance: none;
+	background-color: darkgreen;
+  	height: 5px;
+  	border-radius: 3px;
+  	margin-bottom: 40px;
+  	cursor: pointer;
+}
+.slider-circle::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background-color: #DDD;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #000;
+	border-radius: 25px;
+}
+.slider-circle::-webkit-slider-thumb:hover {
+  	background-color: #CCC;
 }
